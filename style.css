@@ -41,7 +41,7 @@ body {
     font-family:"Roboto";
 
 }
-.wel {
+.logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -60,47 +60,48 @@ button {
     font-size: 16px;
     src: url(./fonts/Roboto-Bold.ttf);
 }
-.type {
+.li-title {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 14px;
     src: url(./fonts/Roboto-Bold.ttf);
 }
-.bow {
+.li-text{
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     src: url(./fonts/Roboto-Regular.ttf);
 }
-.web {
+.team-title {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
     src: url(./fonts/Roboto-Bold.ttf);
 }
-.wed {
+.section-title {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 18.75px;
     src: url(./fonts/Roboto-Medium.ttf);
 }
-.bos {
+.div-link {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
     src: url(./fonts/Roboto-Medium.ttf);
 }
-.rex {
+.nav-link {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
     src: url(./fonts/Roboto-Medium.ttf);
 }
-.eww {
+.footer-link {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
     src: url(./fonts/Roboto-Medium.ttf);
+    text-decoration: none;
 }
