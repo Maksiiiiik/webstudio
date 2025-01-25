@@ -41,6 +41,42 @@ body {
     font-family:"Roboto" ;
 
 }
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.team{
+    margin-top: 94px;
+    margin-bottom: 188px;
+}
+.list {
+    padding-top: 94px;
+}
+.logo {
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+.team-div{
+    margin-top: 50px;
+}
+.add-class{
+    margin-top: 50px;
+}
+.section-title{
+    margin-top: 30px;
+}
+.nav{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.div{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.team-title{
+    margin-top: 94px;
+}
 
 
 h1 {

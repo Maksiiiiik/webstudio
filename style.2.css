@@ -32,6 +32,11 @@
 body {
     font-family: "Roboto" ;
 }
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .logo {
     font-family: "Raleway";
     font-weight: 700;
