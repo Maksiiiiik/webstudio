@@ -80,12 +80,17 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
+nav.team {
+    position: relative;
+    left: -115px;
+}
 .address-sub {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
     color: #757575;
+    margin-right: 50px;
 }
 
 .address-sub-footer {
@@ -165,7 +170,10 @@ ul{
 
 }
 .class-sub:not(:last-child){
-    margin-left: 8px;
+    margin-right: 8px;
+}
+figure.section-figure {
+    border: 1px solid #EEEEEE;
 }
 .section-ul {
     display: grid;
