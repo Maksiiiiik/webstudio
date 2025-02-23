@@ -63,7 +63,7 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 18px;
-    line-height:4px;
+    line-height:2px;
 }
 .section-text {
     font-weight: 400;
@@ -80,19 +80,15 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
-nav.team {
-    position: relative;
-    left: -115px;
-}
 .address-sub {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.7;
     text-decoration: none;
     color: #757575;
-    margin-right: 50px;
+    font-style: normal;
+    
 }
-
 .address-sub-footer {
     font-weight: 500;
     font-size: 14px;
@@ -106,7 +102,7 @@ nav.team {
 }
 
 .address-sub:hover {
-    color:#2196F3;
+    color: #2196F3;
 }
 .footer-address-sub {
     font-style: normal;
@@ -163,23 +159,17 @@ ul{
 .class-sub:hover{
     color: #FFFFFF;
 }
-
-.address-sub{
-    font-weight: 500;
-    font-size: 14px;
-
+.address-sub:not(:last-child){
+    margin-right: 50px;
 }
 .class-sub:not(:last-child){
-    margin-right: 8px;
-}
-figure.section-figure {
-    border: 1px solid #EEEEEE;
+    margin-left: 8px;
 }
 .section-ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* подивився в інтернеті) */
     gap: 20px; 
-    max-width: 1000px;
+    
     margin: 0 auto; 
 }
 .section{
@@ -193,4 +183,15 @@ figcaption{
     margin-left: 10px;
     padding: 24px;
 }
-
+figure.section-figure {
+    margin: 0;
+}
+.section-figure{
+    margin: 0;
+}
+.section-ul{
+    padding: 0;
+}
+.section-figure{
+    border: 1px solid #EEEEEE;
+}
