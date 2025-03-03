@@ -63,9 +63,8 @@
     margin-top: 32px;
     margin-bottom: 32px;
 }
-.team-title{
-    margin-top: 94px;
-}
+
+
 
 body {
     font-family:"Roboto" ;
@@ -132,7 +131,7 @@ button {
     font-size: 14px;
     text-decoration: none;
     color: black;
-    ;
+    
     
 }
 .nav-link:hover {
@@ -180,7 +179,13 @@ button {
 ul{
     list-style: none;
 }
-
+.div-link1:hover{
+    color: #2196F3;
+}
+.div-link1{
+    color: #757575;
+    text-decoration: none;
+}
   
 
 .add-class{
@@ -241,10 +246,11 @@ footer{
     text-align: center;
 }
 .section-text{
-    margin-bottom: 124px;
+    margin-bottom: 30px;
 }
 .section-figure{
     margin: 0;
+    background-color: white;
 }
 .logo-two{
     margin-bottom: 20px;
@@ -253,7 +259,8 @@ footer{
     margin-bottom: 9px;
 }
 .section-team{
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .section-img{
     border-radius: 0 0 4px 0; 
@@ -266,14 +273,38 @@ footer{
 .div-link-footer:hover{
     color: #2196F3;
 }
-.div-link1:hover{
-    color: #2196F3;
+.team-title{
+    margin: 0;
 }
-.div-link1{
-    color: #757575;
-    text-decoration: none;
+.image{
+    display: flex;
+    justify-content: center;
+}  
+.group::before{
+    content: url(./img/Group.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
 }
-
-
-
-    
+.clock::before{
+    content: url(./img/clock\ 1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.diagram::before{
+    content: url(./img/diagram\ 1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.astronaut::before{
+    content: url(./img/astronaut\ 1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
