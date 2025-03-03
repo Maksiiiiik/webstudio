@@ -159,7 +159,10 @@ ul{
 .class-sub:hover{
     color: #FFFFFF;
 }
+.address-sub:not(:last-child){
+    margin-left: 180px;
 
+}
 .address-sub:not(:last-child){
     margin-right: 50px;
 }

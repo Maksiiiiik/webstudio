@@ -179,13 +179,7 @@ button {
 ul{
     list-style: none;
 }
-.div-link1:hover{
-    color: #2196F3;
-}
-.div-link1{
-    color: #757575;
-    text-decoration: none;
-}
+
   
 
 .add-class{
@@ -281,14 +275,14 @@ footer{
     justify-content: center;
 }  
 .group::before{
-    content: url(./img/Group.png);
+    content: url(./img/antenna\ 1.png);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
 }
 .clock::before{
-    content: url(./img/clock\ 1.png);
+    content: url(./img/Vector.png);
     display: flex;
     justify-content: center;
     align-items: center;
