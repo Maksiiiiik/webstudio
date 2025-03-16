@@ -169,6 +169,11 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    url(img/backgraund.png);
+background-size: cover;
+background-position: center;
+    
 }
 .ul-list{
     display: flex;
@@ -197,7 +202,7 @@ ul{
     align-items: flex-start;
 }
 .biznes{
-    background-color: #2F303A;
+    background-image:image;
     width: auto;
     height: 600px;
 }
@@ -275,7 +280,7 @@ footer{
     justify-content: center;
 }  
 .group::before{
-    content: url(./img/antenna\ 1.png);
+    content: url(./img/antenna1.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,22 +294,20 @@ footer{
     padding-bottom: 30px;
 }
 .diagram::before{
-    content: url(./img/diagram\ 1.png);
+    content: url(./img/diagram1.png);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
 }
 .astronaut::before{
-    content: url(./img/astronaut\ 1.png);
+    content: url(./img/astronaut1.png);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
 }
-.logo{
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
-}
+
 .section-figure{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
