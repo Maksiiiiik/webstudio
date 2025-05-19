@@ -35,14 +35,53 @@
           ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />
           ВАШОГО БІЗНЕСУ
         </h1>
-        <button class="title-button" type="button" data-open_modal>Замовити послугу</button>
+         <button class="title-button" type="button" data-modal-open>Замовити послугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="close-button" type="button" data-close_modal>×</button>
-            
+            <svg class="close-button" data-modal-close>
+              <use href="./src/img/secondicons.svg#icon-close"></use>
+            </svg>
+            <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+            <div class="form-field">
+              <label for="input" class="input-form">Ім'я</label>
+              <div class="form-field-item">
+                <svg class="form-field-svg">
+                  <use href="./src/img/secondicons.svg#icon-person"></use>
+                </svg>
+                <input class="input" id="input" type="text">
+              </div>
+              <label for="input" class="input-form">Телефон</label>
+              <div class="form-field-item">
+                <svg class="form-field-svg">
+                  <use href="./src/img/secondicons.svg#icon-phone"></use>
+                </svg>
+                <input class="input" id="input" type="text">
+              </div>
+              <label for="input" class="input-form">Пошта</label>
+              <div class="form-field-item">
+                <svg class="form-field-svg">
+                  <use href="./src/img/secondicons.svg#icon-email"></use>
+                </svg>
+                <input class="input" id="input" type="text">
+              </div>
+              <label class="input-form" for="textarea">Коментар</label>
+              <div class="textarea-field">
+                <textarea placeholder="Введіть текст" id="textarea" class="textarea"></textarea>
+              </div>
+              <div class="checkbox-field">
+                <div class="div-checkbox">
+                  <input class="checkbox-input" type="checkbox" id="checkbox-field" />
+                  <label for="checkbox-field" class="checkbox-paragraph">Погоджуюся з розсилкою та приймаю</label>
+                  <a class="checkbox-link" href="">Умови договору</a>
+                </div>
+
+              </div>
+              <div class="button-field">
+                <button class="button-form" type="submit">Відправити</button>
+              </div>
+            </div>
+            <script src="./src/index.js"></script>
           </div>
-          <script src="./src/index.js"></script>
-      </div>
     </section>
     <section class="advantages">
       <div class="container">
