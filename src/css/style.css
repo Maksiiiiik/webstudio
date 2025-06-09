@@ -72,7 +72,6 @@ h1 {
   line-height: 1.36;
 }
 
-
 button {
   font-family: "Roboto";
   font-weight: 700;
@@ -112,7 +111,7 @@ button {
   line-height: 1.7;
   text-decoration: none;
   color: #757575;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .div-link:hover {
@@ -146,20 +145,19 @@ button {
   bottom: -33px;
   left: 0;
   opacity: 0;
-transition: transform 0.3s ease-in-out;  border-radius: 5px;
-   transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+  transform: scaleX(0);
 }
 .nav-link:nth-child(1) {
-    color: #2196f3;
-    position: relative;
-    
+  color: #2196f3;
+  position: relative;
 }
 .footer-address {
   font-style: normal;
   color: #ffffff;
   line-height: 1.7;
   font-size: 12px;
-  
 }
 .section-text {
   color: #757575;
@@ -176,7 +174,7 @@ transition: transform 0.3s ease-in-out;  border-radius: 5px;
   text-decoration: none;
   color: #757575;
   letter-spacing: 0.02em;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .flexelement {
@@ -231,7 +229,7 @@ ul {
   border-radius: 5px;
   cursor: pointer;
   letter-spacing: 0.06em;
-    transition-property: border-color, background-color;
+  transition-property: border-color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -361,7 +359,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-href:hover {
@@ -383,7 +381,7 @@ footer {
   width: 106px;
   height: 60px;
   display: flex;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link {
@@ -394,7 +392,7 @@ footer {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-div {
@@ -447,7 +445,7 @@ footer {
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link:hover {
@@ -498,6 +496,15 @@ footer {
   border-radius: 4px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  transform: translate(-50%, -50%) scaleX(1) rotate(0);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+  overflow: hidden;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scaleX(10) scaleY(10);
 }
 .close-button {
   position: absolute;
@@ -529,6 +536,11 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  opacity: 1;
+    transition: opacity 0.5s ease-in-out 0.5s;
+}
+.backdrop.is-hidden .modal-text {
+  opacity: 0;
 }
 .form-field {
   margin-left: 40px;
@@ -553,6 +565,7 @@ footer {
   border: none;
   width: 380px;
   outline: none;
+  
 }
 .input-form {
   font-family: "Roboto";
@@ -644,8 +657,14 @@ footer {
   font-family: "Roboto";
   font-weight: bold;
   cursor: pointer;
+  opacity: 1;
+    transition: opacity 0.5s ease-in-out 0.5s;
 }
-.button-close-modal{
+.backdrop.is-hidden .button-form {
+  opacity: 0;
+  
+}
+.button-close-modal {
   border: none;
   appearance: none;
 }
@@ -670,11 +689,10 @@ footer {
   height: 24px;
   fill: #ffffff;
   margin-right: 17px;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color, box-shadow;
 }
-
 
 .subscribe-button {
   background-color: #2196f3;
@@ -692,7 +710,7 @@ footer {
   justify-content: space-between;
   cursor: pointer;
   padding-left: 28px;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color, box-shadow;
 }
