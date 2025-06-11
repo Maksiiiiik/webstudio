@@ -101,9 +101,10 @@ body {
   inset: 0;
   padding: 50px;
  background-color: #2195f3c5;
+ transition-property: opacity, transform;
   transform: translateY(100%);
   transition: transform 0.7s ease-in-out;
-  
+  transition-duration: 250ms,550ms;
 }
 .section-li:hover .overlay {
   transform: translateY(0);
