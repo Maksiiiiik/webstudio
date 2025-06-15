@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Studio</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./src/css/style.css" />
 </head>
@@ -127,18 +128,18 @@
     </section>
     <section class="team">
       <div class="container ">
-        <h2 class="team-title">Чим ми займаємося</h2>
+        <h2 class="team-title" data-aos="fade-down" data-aos-duration="1500">Чим ми займаємося</h2>
           <ul class="team-ul">
-            <li class="team-li">
-              <img class="div-img" src="./src/img/img.png" width="370" height="294" alt="" />
+            <li class="team-li" data-aos="fade-down" data-aos-duration="1500">
+              <img class="div-img"  src="./src/img/img.png" width="370" height="294" alt="" />
               <p class="team-paragraph" >Десктопні додатки</p>
             </li>
-            <li class="team-li">
-              <img class="div-img" src="./src/img/box2.png" width="370" height="294" alt="" />
+            <li class="team-li" data-aos="fade-down" data-aos-duration="1500">
+              <img class="div-img"  src="./src/img/box2.png" width="370" height="294" alt="" />
               <p class="team-paragraph">Мобільні додатки</p>
             </li>
-            <li class="team-li">
-              <img class="div-img" src="./src/img/box3.png" width="370" height="294" alt="" />
+            <li class="team-li" data-aos="fade-down" data-aos-duration="1500">
+              <img class="div-img"  src="./src/img/box3.png" width="370" height="294" alt="" />
               <p class="team-paragraph">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -148,8 +149,8 @@
     <section class="section-team">
       <div class="container">
         <h2 class="team-title">Наша Команда</h2>
-        <div class="add-class">
-          <figure class="section-figure">
+        <div class="add-class" >
+          <figure class="section-figure" data-aos="fade-right" data-aos-duration="1500">
             <img class="section-img" src="./src/img/img(1).jpg" width="270" height="260" alt="" />
             <figcaption class="section-figcaption">
               <h5 class="section-title">Ігор Дем'яненко</h5>
@@ -186,7 +187,7 @@
               </li>
             </ul>
           </figure>
-          <figure class="section-figure">
+          <figure class="section-figure" data-aos="fade-up" data-aos-duration="1500">
             <img class="section-img" src="./src/img/img(11).jpg" width="270" height="260" alt="" />
             <figcaption class="section-figcaption">
               <h5 class="section-title">Ольга Рєпіна</h5>
@@ -223,7 +224,7 @@
               </li>
             </ul>
           </figure>
-          <figure class="section-figure">
+          <figure class="section-figure" data-aos="fade-up" data-aos-duration="1500">
             <img class="section-img" src="./src/img/img.jpg" width="270" height="260" alt="" />
             <figcaption class="section-figcaption">
               <h5 class="section-title">Микола Тарасов</h5>
@@ -260,7 +261,7 @@
               </li>
             </ul>
           </figure>
-          <figure class="section-figure">
+          <figure class="section-figure" data-aos="fade-left" data-aos-duration="1500">
             <img class="section-img" src="./src/img/img(2).jpg" width="270" height="260" alt="" />
             <figcaption class="section-figcaption">
               <h5 class="section-title">Михайло Єрмаков</h5>
@@ -303,7 +304,10 @@
     <section class="client-section">
       <div class="container">
         <h2 class="client-title">Постійні клієнти</h2>
-        <div class="client-div">
+        <div class="client-div" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0" data-aos-duration="600">
           <a class="client-link" href="">
             <svg class="client-svg">
               <use href="./src/img/icons.svg#icon-firstlogo"></use>
@@ -384,6 +388,10 @@
     </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
